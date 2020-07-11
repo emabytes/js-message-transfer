@@ -1,0 +1,74 @@
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  min-height: 60vh;
+  width: 50%;
+  background: rgb(196, 196, 250);
+  color: white;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5vh;
+  font-family: "Raleway", sans-serif;
+  box-shadow: 0 10px 40px -14px rgba(0, 0, 0, 0.55);
+}
+form h1 {
+  font-size: 2.5em;
+  padding-bottom: 2vh;
+  text-align: center;
+}
+form h3 {
+  font-size: 1em;
+  text-transform: uppercase;
+}
+#show-message {
+  margin-top: -1vh;
+  font-size: 1.7em;
+  color: #e291de;
+}
+#message {
+  width: 80%;
+  height: 3vh;
+  margin-bottom: 4vh;
+  border: none;
+  padding: 1vh 1%;
+  border-radius: 5px;
+  outline: none;
+  color: #e291de;
+  font-size: 1em;
+}
+#warning-message {
+  padding-top: 2vh;
+  font-size: 1.2em;
+  color: #e291de;
+}
+.btn {
+  padding: 10px 30px;
+  font-family: "Raleway", sans-serif;
+  display: block;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  background-size: 400%;
+  background-image: linear-gradient(
+    to left,
+    #e291de 0%,
+    #16e4b7 50%,
+    #a1b3df 100%
+  );
+  transition: 0.5s;
+}
+.btn:hover {
+  background-position: right center;
+}
+.btn:focus {
+  outline: none;
+}
